@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
+
+
+*,*::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Rubik;
+  line-height: 1;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #616161;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+[class*="__container"] {
+  max-width: 1057px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
