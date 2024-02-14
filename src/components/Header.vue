@@ -14,11 +14,11 @@
       </div>
       <div class="header__nav">
         <ul>
-          <li>home</li>
-          <li>getting started</li>
-          <li>calendar</li>
-          <li>about</li>
-          <li>contacts</li>
+          <li>Home</li>
+          <li>Getting started</li>
+          <li>Calendar</li>
+          <li>About</li>
+          <li>Contacts</li>
         </ul>
       </div>
       <div class="header__tools">Tools</div>
